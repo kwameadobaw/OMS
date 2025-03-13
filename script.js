@@ -16,11 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
         serviceItem.innerHTML = `
             <select name="service[]" required>
                 <option value="">Select a service</option>
-                <option value="Cleaning">Cleaning</option>
-                <option value="Plumbing">Plumbing</option>
-                <option value="Electrical">Electrical</option>
-                <option value="Painting">Painting</option>
-                <option value="Gardening">Gardening</option>
+                <option value="Form board - 8ft x 4ft">Form board - 8ft x 4ft</option>
+                <option value="Rectangular Mould">Rectangular Mould</option>
+                <option value="Circular Mould">Circular Mould</option>
             </select>
             <input type="number" name="quantity[]" min="1" value="1" required>
             <button type="button" class="remove-btn">Remove</button>
